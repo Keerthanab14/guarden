@@ -15,6 +15,7 @@ def plantresult(request):
     else:
         pass
     sample=str(qury)
+    sample=sample.lower()
     simple_name=''
     category=''
     sif_name=''
@@ -40,7 +41,9 @@ def plantresult(request):
     min=0
     while min <= max:
         itm=dict(totall[min])
-        if itm.get('simple_name')==sample:
+        name=str(itm.get('simple_name'))
+        name=name.lower()
+        if name==sample:
             found=True
             simple_name=itm.get('simple_name')
             category=itm.get('category')
