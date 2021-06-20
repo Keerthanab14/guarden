@@ -5,8 +5,16 @@ There has never been an application that can detect a plant, detect a disease or
 
 ## What it does
 GUARDEN helps in plant lovers to choose among various plants, say in places like nurseries, in order to make a decision about which plant to buy. This can be done just by scanning a particular plant using the web app. After scanning a particular plant using your camera, the plant’s category will first appear and then a link will be provided to get complete information about the plant, how it should be grown, what are the suitable climatic conditions for its growth, etc. This app can also be used as a guide to growing a particular plant in your garden! This app also provides additional details through the chatbot. These additional details include calling a gardener, finding nearby nurseries and checking the health of the plants in the garden.
+![10](https://user-images.githubusercontent.com/55526452/122676312-3c15f300-d1fb-11eb-9d58-1e4ef342c5d5.png)
+![11](https://user-images.githubusercontent.com/55526452/122676316-40daa700-d1fb-11eb-95f3-e3bedbd5db13.png)
+
 ## How we built it
 The front-end was designed using CSS, HTML and Javascript. The chatbot was designed with Dialog Flow, which is a part of Google Cloud Platform. The plant classifier model was customized with our own garden dataset and trained for prediction using Clarifai. We have used the Django framework and SQlite Database as part of the backend.
+![7](https://user-images.githubusercontent.com/55526452/122676325-4a640f00-d1fb-11eb-8763-5111012212df.png)
+![8](https://user-images.githubusercontent.com/55526452/122676332-5354e080-d1fb-11eb-8319-06167ae2c6e8.png)
+![9](https://user-images.githubusercontent.com/55526452/122676338-564fd100-d1fb-11eb-9c51-3be978f39e7b.png)
+
+
 ## Challenges we ran into
 We were constantly getting errors while trying to host our website in Heroku. We figured out that the error was caused due to databases and Django framework. Later, we could populate the database with administrator access.
 ## Accomplishments that we're proud of
