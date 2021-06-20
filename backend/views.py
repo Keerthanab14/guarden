@@ -12,6 +12,8 @@ from .forms import *
 def index(request):
     return render(request, 'home.html')
 
+# <!-- <----------------------------------- Plant scanner start----------------------------> -->
+
 # def check(request):
 #     # fileObj=request.FILES['docfl']
 #     # # print(fileObj)
@@ -19,6 +21,9 @@ def index(request):
 #     # filePathName=fs.save(fileObj.name,fileObj)
 #     # filePathName=fs.url(filePathName)
 #     return render(request, 'check.html',{'filePathName':filePathName,'red':'response'})
+
+# <!-- <----------------------------------- Plant scanner end----------------------------> -->
+
 
 def plantresult(request):
     if request.method=='GET':
@@ -81,4 +86,4 @@ def plantresult(request):
     if found==True:
         return render(request, 'plantresult.html',{'simple_name':simple_name,'sif_name':sif_name,'category':category,'family_name':family_name,'no_of_species':no_of_species,'medi_detail':medi_detail,'flower_feature':flower_feature,'life_cycle':life_cycle,'climet':climet,'smell':smell,'organic_manure':organic_manure,'flower_details':flower_details,'how_to_plant':how_to_plant,'how_to_glow':how_to_glow,'how_to_care':how_to_care,'pic1':pic1,'pic2':pic2,'pic3':pic3,'pic4':pic4})
     else:
-        return HttpResponse('Plant is not added to database')
+        return render(request,'notavailable.html',{'plst':sample})
