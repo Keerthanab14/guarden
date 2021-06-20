@@ -162,7 +162,7 @@
                         </svg></span></div>
                     <div class="unit-body">
                       <h6 class="offset-top-10">Scanne a Plant</h6>
-                      <a href="#" class="btn btn-xs btn-default offset-top-30">Open Camera</a>
+                      <a class="btn btn-xs btn-default offset-top-30">Comming soon</a>
                     </div>
                   </div>
                 </div>
@@ -210,7 +210,7 @@
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M26.095,25.115c-0.377,0.375-0.993,0.375-1.37,0  c-0.377-0.374-0.377-0.985,0-1.36L26.494,22c0.377-0.375,0.993-0.375,1.37,0c0.377,0.375,0.377,0.985,0,1.36L26.095,25.115z"></path>
                         </svg></span></div>
                     <div class="unit-body">
-                      <h6 class="offset-top-10">Our Application <br class="visible-lg-inline"> </h6><a href="#" class="btn btn-xs btn-default offset-top-30">Check Now</a>
+                      <h6 class="offset-top-10">Our Application <br class="visible-lg-inline"> </h6><a href="#" class="btn btn-xs btn-default offset-top-30">Coming Soon</a>
                     </div>
                   </div>
                 </div>
@@ -467,7 +467,7 @@
               <h5 class="text-white">Who We Are</h5>
               <p class="text-lighter offset-top-17">An environmentally conscious renewable energy company that offers the most eco-friendly, cost-efficient and high-energy generating products and solutions on the solar panels market!</p>
               <div class="offset-top-30 offset-md-top-55">
-                <div class="group-xl"><a href="#"><img src=" static 'footer-1.png' %}" width="144" height="65" alt=""></a><a href="#"><img src="wt_60074/images/footer-2.png" width="106" height="65" alt=""></a></div>
+                <div class="group-xl"><a href="#"><img src="{% static 'footer-1.png' %}" width="144" height="65" alt=""></a><a href="#"><img src="{% static 'footer-2.png' %}" width="106" height="65" alt=""></a></div>
               </div>
             </div>
             <div class="cell-lg-9 offset-top-45 offset-md-top-110">
@@ -521,6 +521,12 @@
       function ser() {
         document.getElementById("serchbt").click(); // Click on the checkbox
       }
+      function imgup(){
+        document.getElementById("file1a").click(); // Click on the checkbox
+         
+        // document.getElementById("sub1").click(); // Click on the checkbox
+      }
+      
       </script>
     <!-- Java script-->
     <script src="{% static 'core.min.js' %}"></script>

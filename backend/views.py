@@ -1,13 +1,24 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, request
 from django.db.models.functions import JSONObject
+from django.core.files.storage import FileSystemStorage
+from clarifai.rest import ClarifaiApp
 from .models import *
 from .forms import *
 
+
+
 # Create your views here.
 def index(request):
-    qury=searchqury()
-    return render(request, 'home.html',{'form':qury})
+    return render(request, 'home.html')
+
+# def check(request):
+#     # fileObj=request.FILES['docfl']
+#     # # print(fileObj)
+#     # fs=FileSystemStorage()
+#     # filePathName=fs.save(fileObj.name,fileObj)
+#     # filePathName=fs.url(filePathName)
+#     return render(request, 'check.html',{'filePathName':filePathName,'red':'response'})
 
 def plantresult(request):
     if request.method=='GET':
