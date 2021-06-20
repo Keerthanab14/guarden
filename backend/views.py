@@ -5,7 +5,7 @@ from .models import *
 from .forms import *
 
 # Create your views here.
-def home(request):
+def index(request):
     qury=searchqury()
     return render(request, 'home.html',{'form':qury})
 
