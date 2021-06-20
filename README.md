@@ -1,6 +1,7 @@
 # GUARDEN
 ## Inspiration
 There has never been an application that can detect a plant, detect a disease or get all other related information for maintenance of a garden. This inspired us to come up with **"Guarden"** - an application that can detect the plant and provide care tips, detect a disease, allow the user to book more plants or find a gardener or find nearby nurseries or find resources to maintain a garden - all in one place.From scanning a plant and getting information on how to take care to identifying a disease to ordering plants - Guarden provides one stop solution to all types of garden lovers.
+![1](https://user-images.githubusercontent.com/55526452/122676253-f22d0d00-d1fa-11eb-96a5-d882abd68092.png)
 
 ## What it does
 GUARDEN helps in plant lovers to choose among various plants, say in places like nurseries, in order to make a decision about which plant to buy. This can be done just by scanning a particular plant using the web app. After scanning a particular plant using your camera, the plant’s category will first appear and then a link will be provided to get complete information about the plant, how it should be grown, what are the suitable climatic conditions for its growth, etc. This app can also be used as a guide to growing a particular plant in your garden! This app also provides additional details through the chatbot. These additional details include calling a gardener, finding nearby nurseries and checking the health of the plants in the garden.
