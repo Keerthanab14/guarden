@@ -11,7 +11,7 @@ We were constantly getting errors while trying to host our website in Heroku. We
 ## Accomplishments that we're proud of
 Guarden has provided wonderful information about plants grown in a garden.  The web application includes features of uploading an image for plant identification, a bot to help set up a beautiful garden and search for a garden plant to know more about it.   
 ## What we learned
-We used Clarifai for the first time and learnt to integrate it with the django. We also learnt to integrate chatbot with the frontend. 
+We used Clarifai for the first time and learnt to integrate it with the django. We also learnt to integrate chatbot with the frontend. <br><br>
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/60786451/122676042-be9db300-d1f9-11eb-9953-3f25a036b6e2.gif)
 
 ## What's next for Guarden
