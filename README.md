@@ -25,3 +25,17 @@ We used Clarifai for the first time and learnt to integrate it with the django. 
 
 ## What's next for Guarden
 Plan to add a sign up system and give garden ideas personalised based on the images uploaded by the user and recommend plants based on their interests. Leaf disease detection feature can also be included and create a mobile application for the same.
+
+### [🔬] Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Keerthanab14/guarden.git
+   ```
+2. Install Django
+   ```sh
+   pip install Django
+   ```
+3. Run the Program
+   ```sh
+   Python manage.py runserver
+   ```
